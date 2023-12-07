@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Simple_Blue_1" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6491f4c4-6272-4a3a-8587-195ed1e8b466">
+	<property name="com.jaspersoft.studio.data.sql.tables">
+		<![CDATA[Ik1VU0lDQUxfSU5TVFJVTUVOVFMiIEFTICwyMzUsODAsNWRlM2VmZGEtMTQ2MC00MGZkLWEzMDct
+YTFhYjdmNDM1NTI2OyJBRE1JTlNUUkFUT1IiIEFTICwxNSwxNSw2NmYyYTA0NC01Y2JlLTQwYzgt
+OGVlOS04ZmQzMTM2N2IxMjM7]]>
+	</property>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter1.xml"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT "MUSICAL_INSTRUMENTS"."TOOLNAME",
+	"ADMINSTRATOR"."ADMINSTRATORFNAME"
+FROM "MUSICAL_INSTRUMENTS"
+	INNER JOIN "ADMINSTRATOR" ON 
+	 "ADMINSTRATOR"."ADMINSTRATORID" = "MUSICAL_INSTRUMENTS"."ADMINSTRATORID" 
+WHERE 
+	 "MUSICAL_INSTRUMENTS"."ADMINSTRATORID" ="ADMINSTRATOR"."ADMINSTRATORID"]]>
+	</queryString>
+	<field name="TOOLNAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="TOOLNAME"/>
+	</field>
+	<field name="ADMINSTRATORFNAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ADMINSTRATORFNAME"/>
+	</field>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#006699" uuid="233aa7c8-1196-46fb-8b5b-93f356431b4d"/>
+				<staticText>
+					<reportElement x="20" y="20" width="234" height="43" forecolor="#FFFFFF" uuid="5be9ad66-39df-43c5-b852-c1ee21e4c239"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[TITLE]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="395" y="43" width="180" height="20" forecolor="#FFFFFF" uuid="2f3e14fc-f86a-4242-b3bb-787006f4c5d2"/>
+					<textElement textAlignment="Right">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Add a description here]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21">
+			<line>
+				<reportElement x="-20" y="20" width="595" height="1" forecolor="#666666" uuid="e3de6a81-5793-4746-94e5-d4beb27085a8"/>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="277" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="7ee3125d-1999-41b0-bb70-6c075ccfc95a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="27b1a4a8-c0f6-4c35-827c-2b2d8433815b"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TOOLNAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="277" y="0" width="277" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="7f8c5c55-ddaf-441e-8e88-d8357ba882a7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9aa8ed82-20ea-4df4-a5ee-a94829e37c0b"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ADMINSTRATORFNAME]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="19" width="555" height="1" uuid="678e873b-71ae-4ccb-80a2-e090e1e7ffd5"/>
+			</line>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="0" y="0" width="277" height="20" uuid="60c037da-01ce-4cd3-b18c-85135e3ba116">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="27b1a4a8-c0f6-4c35-827c-2b2d8433815b"/>
+				</reportElement>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TOOLNAME}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="277" y="0" width="277" height="20" uuid="992d4250-d524-45a5-ac0d-c28ca0e26e39">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9aa8ed82-20ea-4df4-a5ee-a94829e37c0b"/>
+				</reportElement>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ADMINSTRATORFNAME}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="3f1e9593-d41d-4065-9fc5-4033baacd85a"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="78cf274e-6cd2-45fc-8b76-8a4ab4403043"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="dc1d2f88-edd5-4143-ab7a-8efb68f6a419"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

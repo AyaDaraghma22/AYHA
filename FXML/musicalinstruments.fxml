@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.MusicalinstrumentsController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="700.0" prefWidth="800.0">
+            <children>
+               <Button blendMode="LIGHTEN" layoutX="686.0" layoutY="1.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="117.0" />
+               <ImageView fitHeight="337.0" fitWidth="192.0" layoutX="304.0" layoutY="250.0">
+                  <image>
+                     <Image url="@8e0000.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="71.0" fitWidth="84.0" layoutX="707.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@USER.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="337.0" fitWidth="192.0" layoutX="550.0" layoutY="250.0">
+                  <image>
+                     <Image url="@8e0000.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="337.0" fitWidth="192.0" layoutX="50.0" layoutY="250.0">
+                  <image>
+                     <Image url="@8e0000.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="72.0" fitWidth="382.0" layoutX="194.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@musicalinstrument-removebg-preview.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="143.0" fitWidth="234.0" layoutX="548.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@pi-removebg-preview.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="87.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="707.0" layoutY="76.0" prefHeight="25.0" prefWidth="78.0" text="My profile">
+                  <font>
+                     <Font name="System Bold Italic" size="14.0" />
+                  </font>
+               </Label>
+               <Text layoutX="193.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music is not merely a study ,it is an entertainment , wherever there is music there is a throng of listeners" wrappingWidth="384.451904296875">
+                  <font>
+                     <Font name="Andalus" size="14.0" />
+                  </font>
+               </Text>
+               <Button alignment="TOP_LEFT" blendMode="MULTIPLY" layoutX="305.0" layoutY="253.0" mnemonicParsing="false" onAction="#switchToPIANO" prefHeight="329.0" prefWidth="189.0" />
+               <Button layoutX="14.0" layoutY="646.0" mnemonicParsing="false" onAction="#backbutton" text="back       " textFill="#0b0202">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Button>
+               <Button alignment="TOP_LEFT" blendMode="MULTIPLY" layoutX="51.0" layoutY="252.0" mnemonicParsing="false" onAction="#switchToCHELLO" prefHeight="330.0" prefWidth="189.0" />
+               <Button alignment="TOP_LEFT" blendMode="MULTIPLY" layoutX="550.0" layoutY="251.0" mnemonicParsing="false" onAction="#switchToGUITAR" prefHeight="331.0" prefWidth="191.0" />
+               <ImageView fitHeight="32.0" fitWidth="38.0" layoutX="69.0" layoutY="650.0">
+                  <image>
+                     <Image url="@back.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="256.0" fitWidth="187.0" layoutX="61.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@chello.jpg" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="256.0" fitWidth="187.0" layoutX="315.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@piano.jpg" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="256.0" fitWidth="180.0" layoutX="561.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@guitar.jpg" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="58.0" fitWidth="189.0" layoutX="49.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@cv.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="47.0" fitWidth="124.0" layoutX="591.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@g.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="45.0" fitWidth="110.0" layoutX="340.0" layoutY="532.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@p.png" />
+                  </image>
+               </ImageView>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

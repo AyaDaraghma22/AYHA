@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.chellovilonController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="700.0" prefWidth="800.0">
+            <children>
+               <Button blendMode="LIGHTEN" layoutX="676.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="133.0" />
+               <Button blendMode="LIGHTEN" layoutX="549.0" layoutY="403.0" mnemonicParsing="false" onAction="#switchtovh6" prefHeight="258.0" prefWidth="226.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="302.0" layoutY="395.0" mnemonicParsing="false" onAction="#switchtovh5" prefHeight="222.0" prefWidth="206.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="39.0" layoutY="395.0" mnemonicParsing="false" onAction="#switchtovh4" prefHeight="222.0" prefWidth="206.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="551.0" layoutY="159.0" mnemonicParsing="false" onAction="#switchtovh3" prefHeight="222.0" prefWidth="206.0" />
+               <Button blendMode="LIGHTEN" layoutX="297.0" layoutY="153.0" mnemonicParsing="false" onAction="#switchtovh2" prefHeight="222.0" prefWidth="206.0" />
+               <Button blendMode="LIGHTEN" layoutX="37.0" layoutY="153.0" mnemonicParsing="false" onAction="#switchtovh1" prefHeight="222.0" prefWidth="206.0" />
+               <ImageView fitHeight="87.0" fitWidth="88.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="71.0" fitWidth="84.0" layoutX="713.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@USER.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="713.0" layoutY="78.0" prefHeight="25.0" prefWidth="78.0" text="My profile">
+                  <font>
+                     <Font name="System Bold Italic" size="14.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="63.0" fitWidth="195.0" layoutX="296.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@cv.png" />
+                  </image>
+               </ImageView>
+               <Button layoutX="8.0" layoutY="646.0" mnemonicParsing="false" onAction="#BACKBUTTON" text="back       " textFill="#0b0202">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="32.0" fitWidth="38.0" layoutX="63.0" layoutY="650.0">
+                  <image>
+                     <Image url="@back.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="106.0" fitWidth="121.0" layoutX="453.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@chello.gif" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="58.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@c1.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="67.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@v1.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="330.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@c2.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="570.0" layoutY="159.0">
+                  <image>
+                     <Image url="@c3.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="325.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@v2.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="569.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@v3.png" />
+                  </image>
+               </ImageView>
+               <Text layoutX="569.0" layoutY="328.1865234375" strokeType="OUTSIDE" strokeWidth="0.0" text="Yamaha SVC-210SK Silent Cello Brown" textAlignment="CENTER" wrappingWidth="184.48748779296875" AnchorPane.topAnchor="312.0">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="552.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WilliamRozanna's Violins Butterfly Dream White Glitter Series Violin Outfit 4/4s Symphony" textAlignment="CENTER" wrappingWidth="218.31451416015625" AnchorPane.topAnchor="564.8134765625">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="48.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Knilling Perfection I Cello" AnchorPane.topAnchor="311.41796875">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="52.0" layoutY="592.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bellafina Rainbow Series Black Violin, Outfit 1/4 Size" textAlignment="CENTER" wrappingWidth="197.43829345703125" AnchorPane.topAnchor="575.8134765625">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="306.0" layoutY="333.58203125" strokeType="OUTSIDE" strokeWidth="0.0" text="Cremona SC-500 Premier Artist Cello Outfit 4/4" textAlignment="CENTER" wrappingWidth="204.26837158203125" AnchorPane.topAnchor="312.0">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="320.0" layoutY="593.1865234375" strokeType="OUTSIDE" strokeWidth="0.0" text="LaCremona SV-500 Series Violinbel  Outfit 1/2 Size" textAlignment="CENTER" wrappingWidth="199.3914794921875" AnchorPane.topAnchor="577.0">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.stage.Stage?>
+
+<Stage fx:id="stage" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.homeadminController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="200" prefWidth="200">
+            <children>
+               <AnchorPane prefHeight="700.0" prefWidth="850.0">
+                  <children>
+                     <Button blendMode="LIGHTEN" layoutX="711.0" layoutY="1.0" mnemonicParsing="false" onAction="#switchtoADMINprofile" prefHeight="128.0" prefWidth="145.0" />
+                     <ImageView fitHeight="87.0" fitWidth="88.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@AYHA.png" />
+                        </image>
+                     </ImageView>
+                     <ImageView fitHeight="52.0" fitWidth="60.0" layoutX="734.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="525.0">
+                        <image>
+                           <Image url="@pianoicon.png" />
+                        </image>
+                     </ImageView>
+                     <ImageView fitHeight="65.0" fitWidth="71.0" layoutX="732.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="404.0">
+                        <image>
+                           <Image url="@orchestra.jpeg" />
+                        </image>
+                     </ImageView>
+                     <ImageView fitHeight="71.0" fitWidth="84.0" layoutX="756.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@username.png" />
+                        </image>
+                     </ImageView>
+                     <Label layoutX="757.0" layoutY="75.0" prefHeight="25.0" prefWidth="78.0" text="My profile">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <ImageView fitHeight="208.0" fitWidth="411.0" layoutX="231.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@homeAYHA.jpeg" />
+                        </image>
+                     </ImageView>
+                     <ImageView fitHeight="109.0" fitWidth="298.0" layoutX="281.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@musicstore.jpeg" />
+                        </image>
+                     </ImageView>
+                     <ImageView fitHeight="201.0" fitWidth="188.0" layoutX="531.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@heart2.jpeg" />
+                        </image>
+                     </ImageView>
+                     <ImageView fitHeight="119.0" fitWidth="455.0" layoutX="95.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@heart.jpeg" />
+                        </image>
+                     </ImageView>
+                     <Text fill="#030101" layoutX="169.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music is not only created by people, but it is also all around us in nature. In the mornings, when the crickets and the birds chirp, it is music." wrappingWidth="405.6323547363281">
+                        <font>
+                           <Font name="Castellar" size="12.0" />
+                        </font>
+                     </Text>
+                     <Button layoutX="474.0" layoutY="425.0" mnemonicParsing="false" onAction="#switchtoORCHESTRAtable" prefHeight="43.0" prefWidth="252.0" text="orchestra Table" textFill="#0d0808">
+                        <font>
+                           <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                        <effect>
+                           <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                              <bumpInput>
+                                 <Shadow />
+                              </bumpInput>
+                           </Lighting>
+                        </effect>
+                     </Button>
+                     <ImageView fitHeight="505.0" fitWidth="372.0" layoutX="2.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@homeback.gif" />
+                        </image>
+                     </ImageView>
+                     <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="734.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@customers.png" />
+                        </image>
+                     </ImageView>
+                     <Button layoutX="474.0" layoutY="604.0" mnemonicParsing="false" onAction="#switchtoCUSTOMERStable" prefHeight="43.0" prefWidth="253.0" text="Customers Tickets" textFill="#0d0808">
+                        <font>
+                           <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                        <effect>
+                           <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                              <bumpInput>
+                                 <Shadow />
+                              </bumpInput>
+                           </Lighting>
+                        </effect>
+                     </Button>
+                     <Button layoutX="475.0" layoutY="529.0" mnemonicParsing="false" onAction="#switchtoINSTRUMENTStable" prefHeight="43.0" prefWidth="254.0" text="Customerts instruments" textFill="#0d0808">
+                        <font>
+                           <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                        <effect>
+                           <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                              <bumpInput>
+                                 <Shadow />
+                              </bumpInput>
+                           </Lighting>
+                        </effect>
+                     </Button>
+                     <Label layoutX="772.0" layoutY="442.0" prefHeight="3.0" prefWidth="42.0" text="Edit" textFill="#8e0000">
+                        <font>
+                           <Font name="DecoType Naskh Variants" size="13.0" />
+                        </font>
+                     </Label>
+                     <Button layoutX="474.0" layoutY="350.0" mnemonicParsing="false" onAction="#switchtoINSTRUMENTStable" prefHeight="43.0" prefWidth="252.0" text="Instruments table" textFill="#0d0808">
+                        <font>
+                           <Font name="System Bold Italic" size="20.0" />
+                        </font>
+                        <effect>
+                           <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                              <bumpInput>
+                                 <Shadow />
+                              </bumpInput>
+                           </Lighting>
+                        </effect>
+                     </Button>
+                     <ImageView fitHeight="65.0" fitWidth="71.0" layoutX="731.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@instruments.jpeg" />
+                        </image>
+                     </ImageView>
+                     <Label layoutX="764.0" layoutY="365.0" prefHeight="3.0" prefWidth="42.0" text="Edit" textFill="#8e0000">
+                        <font>
+                           <Font name="DecoType Naskh Variants" size="13.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </AnchorPane>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

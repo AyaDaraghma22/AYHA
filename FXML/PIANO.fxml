@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.pianoController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="700.0" prefWidth="800.0">
+            <children>
+               <Button blendMode="LIGHTEN" layoutX="678.0" layoutY="1.0" mnemonicParsing="false" prefHeight="113.0" prefWidth="121.0" />
+               <Button blendMode="LIGHTEN" layoutX="551.0" layoutY="403.0" mnemonicParsing="false" onAction="#switchtopiano6" prefHeight="222.0" prefWidth="206.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="302.0" layoutY="395.0" mnemonicParsing="false" onAction="#switchtopiano5" prefHeight="222.0" prefWidth="206.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="39.0" layoutY="395.0" mnemonicParsing="false" onAction="#switchtopiano4" prefHeight="222.0" prefWidth="206.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="551.0" layoutY="159.0" mnemonicParsing="false" onAction="#switchtopiano3" prefHeight="222.0" prefWidth="206.0" />
+               <Button blendMode="LIGHTEN" layoutX="297.0" layoutY="153.0" mnemonicParsing="false" onAction="#secondpianoswitch" prefHeight="222.0" prefWidth="206.0" />
+               <Button blendMode="LIGHTEN" layoutX="37.0" layoutY="153.0" mnemonicParsing="false" onAction="#switchtopiano1" prefHeight="222.0" prefWidth="206.0" />
+               <ImageView fitHeight="87.0" fitWidth="88.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="71.0" fitWidth="84.0" layoutX="713.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@USER.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="713.0" layoutY="78.0" prefHeight="25.0" prefWidth="78.0" text="My profile">
+                  <font>
+                     <Font name="System Bold Italic" size="14.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="63.0" fitWidth="195.0" layoutX="299.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@p.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="70.0" fitWidth="138.0" layoutX="448.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@notesm.gif" />
+                  </image>
+               </ImageView>
+               <Button layoutX="8.0" layoutY="646.0" mnemonicParsing="false" onAction="#BACKBUTTON" text="back       " textFill="#0b0202">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="32.0" fitWidth="38.0" layoutX="63.0" layoutY="650.0">
+                  <image>
+                     <Image url="@back.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="106.0" fitWidth="121.0" layoutX="433.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@pi-removebg-preview.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="58.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@p1.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="67.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@p4.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="330.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@p2.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="570.0" layoutY="159.0">
+                  <image>
+                     <Image url="@p3.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="325.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@p5.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="569.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@p6.png" />
+                  </image>
+               </ImageView>
+               <Text layoutX="564.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Williams Rhapsody " wrappingWidth="227.68743896484375" AnchorPane.topAnchor="312.41796875">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Text>
+               <Text layoutX="561.0" layoutY="587.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Williams Symphony" AnchorPane.topAnchor="557.41796875">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Text>
+               <Text layoutX="48.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Williams Symphony" AnchorPane.topAnchor="311.41796875">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Text>
+               <Text layoutX="60.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yamaha P-125BLB " AnchorPane.topAnchor="557.41796875">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Text>
+               <Text layoutX="306.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Williams Symphony" AnchorPane.topAnchor="312.41796875">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Text>
+               <Text layoutX="326.0" layoutY="584.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nord Piano 5 88 " AnchorPane.topAnchor="557.41796875">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Text>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

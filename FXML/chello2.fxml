@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.chello22Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="500.0" prefWidth="600.0">
+            <children>
+               <ImageView fitHeight="310.0" fitWidth="322.0" layoutX="8.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@c2.png" />
+                  </image>
+               </ImageView>
+               <Pane layoutX="327.0" layoutY="92.0" prefHeight="277.0" prefWidth="254.0">
+                  <children>
+                     <Label layoutX="7.0" layoutY="239.0" prefHeight="38.0" prefWidth="161.0" text="\$1,329.99" textFill="#020000">
+                        <font>
+                           <Font name="System Bold" size="23.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="7.0" layoutY="26.0" text="Cello Outfit 4/4">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="4.0" layoutY="60.0" text="1- Best tone quality for the advanced ">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="6.0" layoutY="79.0" text="student">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="4.0" layoutY="108.0" text="2- Flamed maple with a rich, hand ">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="4.0" layoutY="126.0" text="applied golden red-brown varnish ">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="4.0" layoutY="147.0" text="finish">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="2.0" layoutY="176.0" text="3- Set-up to educational standards">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="3.0" layoutY="195.0" text="at our Cremona workshop in the US">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                     <Label layoutX="3.0" layoutY="215.0" text="with Frensh Made">
+                        <font>
+                           <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </Pane>
+               <Label layoutX="163.0" layoutY="85.0">
+                  <font>
+                     <Font name="System Bold Italic" size="14.0" />
+                  </font>
+               </Label>
+               <Label layoutX="334.0" layoutY="98.0" text="Cremona SC-500 Premier Artist ">
+                  <font>
+                     <Font name="System Bold Italic" size="14.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="85.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <Button layoutX="370.0" layoutY="378.0" mnemonicParsing="false" onAction="#ADDTOCART" text="Add to cart" textFill="#8e0000">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+                  <effect>
+                     <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                        <bumpInput>
+                           <Shadow />
+                        </bumpInput>
+                     </Lighting>
+                  </effect>
+               </Button>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

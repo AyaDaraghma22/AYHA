@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.guitarController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="700.0" prefWidth="800.0">
+            <children>
+               <Button blendMode="LIGHTEN" layoutX="689.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="112.0" />
+               <Button blendMode="LIGHTEN" layoutX="551.0" layoutY="403.0" mnemonicParsing="false" onAction="#switchtoguitar6" prefHeight="222.0" prefWidth="206.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="302.0" layoutY="395.0" mnemonicParsing="false" onAction="#switchtoguitar5" prefHeight="222.0" prefWidth="206.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="39.0" layoutY="395.0" mnemonicParsing="false" onAction="#switchtoguitar4" prefHeight="222.0" prefWidth="206.0" text="Button" />
+               <Button blendMode="LIGHTEN" layoutX="551.0" layoutY="159.0" mnemonicParsing="false" onAction="#switchtoguitar3" prefHeight="222.0" prefWidth="206.0" />
+               <Button blendMode="LIGHTEN" layoutX="297.0" layoutY="153.0" mnemonicParsing="false" onAction="#switchtoguitar2" prefHeight="222.0" prefWidth="206.0" />
+               <Button blendMode="LIGHTEN" layoutX="37.0" layoutY="153.0" mnemonicParsing="false" onAction="#switchtoguitar1" prefHeight="222.0" prefWidth="206.0" />
+               <ImageView fitHeight="87.0" fitWidth="88.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="71.0" fitWidth="84.0" layoutX="713.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@USER.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="713.0" layoutY="78.0" prefHeight="25.0" prefWidth="78.0" text="My profile">
+                  <font>
+                     <Font name="System Bold Italic" size="14.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="63.0" fitWidth="195.0" layoutX="299.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@g.png" />
+                  </image>
+               </ImageView>
+               <Button layoutX="8.0" layoutY="646.0" mnemonicParsing="false" onAction="#BACKBUTTON" text="back       " textFill="#0b0202">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="32.0" fitWidth="38.0" layoutX="63.0" layoutY="650.0">
+                  <image>
+                     <Image url="@back.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="106.0" fitWidth="121.0" layoutX="433.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@playguitarg.gif" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="58.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@gg1.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="67.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@gg4.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="330.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@gg2.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="570.0" layoutY="159.0">
+                  <image>
+                     <Image url="@gg3.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="200.0" fitWidth="152.0" layoutX="323.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@gg5.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="569.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@gg6.png" />
+                  </image>
+               </ImageView>
+               <Text layoutX="39.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rogue Starter Acoustic Guitar" wrappingWidth="227.68743896484375" AnchorPane.topAnchor="313.8134765625">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="560.0" layoutY="597.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Martin Special Little Martin " AnchorPane.topAnchor="580.0">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="569.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fender Player Stratocaster " AnchorPane.topAnchor="314.8134765625">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="88.0" layoutY="596.1865234375" strokeType="OUTSIDE" strokeWidth="0.0" text="Schecter Guitar" AnchorPane.topAnchor="580.0">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="310.0" layoutY="328.6044921875" strokeType="OUTSIDE" strokeWidth="0.0" text="Martin Special Little Martin " AnchorPane.topAnchor="312.41796875">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+               <Text layoutX="326.0" layoutY="598.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D'Angelico Excel Series" AnchorPane.topAnchor="580.0">
+                  <font>
+                     <Font name="System Bold Italic" size="15.0" />
+                  </font>
+               </Text>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

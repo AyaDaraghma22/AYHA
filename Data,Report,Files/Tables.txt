@@ -1,0 +1,89 @@
+create table Person
+(
+PersonID int not null,
+PersonPassword varchar2(30) not null,
+PersonFName varchar2(15) not null,
+PersonLName varchar2(15) not null,
+PersonEmail varchar2(50) not null,
+PersonGender varchar2(15) not null,
+PersonAge int not null,
+PersonAddress varchar2(30) not null,
+PersonPhoneNum int not null,
+constraint Person_pk primary key(PersonID)
+);
+
+create table Adminstrator
+(
+AdminstratorID int not null,
+AdminstratorPassword varchar2(30) not null,
+AdminstratorFName varchar2(15) not null,
+AdminstratorLName varchar2(15) not null,
+AdminstratorEmail varchar2(50) not null,
+AdminstratorGender varchar2(15) not null,
+AdminstratorAge int not null,
+AdminstratorAddress varchar2(30) not null,
+AdminstratorPhoneNum int not null,
+constraint Admin_pk primary key(AdminstratorID)
+);
+
+
+create table Customer
+(
+customerID int not null,
+customerPassword varchar2(30) not null,
+customerFName varchar2(15) not null,
+customerLName varchar2(15) not null,
+customerEmail varchar2(50) not null,
+customerGender varchar2(15) not null,
+customerAge int not null,
+customerAddress varchar2(30) not null,
+customerPhoneNum int not null,
+constraint customer_pk primary key(customerID)
+);
+
+
+create table Ticket
+(
+    OrchestraName varchar2(30) not null,
+    OrchestraID int not null,
+    Price int not null,
+    OrchestraTime varchar2(30) not null,
+    OrchestraAddress varchar2(30) not null,
+    AdminstratorID int not null,
+    constraint Ticket_pk primary key(OrchestraID)
+);
+
+
+
+ 
+ create table musical_instruments
+ (
+     Tool_ID int not null,
+     ToolName varchar2(50) not null,
+     AdminstratorID int not null,
+     price int not null,
+     constraint musical_instruments_pk primary key(Tool_ID),  
+ );
+
+create table customer_instruments 
+(
+Tool_ID int not null,
+customerID int not null,
+price int not null,
+constraint customer_instrument_fk foreign key( customerID )references Customer(customerID),
+constraint tool_fk foreign key (Tool_ID)references musical_instruments(Tool_ID)
+);
+create table customer_Tickets 
+(
+OrchestraID int not null,
+customerID int not null,
+price int not null,
+constraint customer_Ticket_fk foreign key( customerID )references Customer(customerID),
+constraint Orchestra_fk foreign key (OrchestraID)references Ticket(OrchestraID)
+);
+
+Alter table Ticket
+ADD FOREIGN KEY (AdminstratorID) REFERENCES Adminstrator(AdminstratorID);
+
+Alter table musical_instruments
+ADD FOREIGN KEY (AdminstratorID) REFERENCES Adminstrator(AdminstratorID);

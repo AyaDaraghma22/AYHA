@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.JAVAFX.piano22Contorller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="500.0" prefWidth="600.0">
+                <children>
+                    <ImageView fitHeight="368.0" fitWidth="314.0" layoutX="14.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@p2.png" />
+                        </image>
+                    </ImageView>
+                    <Pane layoutX="328.0" layoutY="105.0" prefHeight="285.0" prefWidth="254.0">
+                        <children>
+                            <Label layoutX="3.0" layoutY="248.0" prefHeight="38.0" prefWidth="112.0" text="\$1,999.99">
+                                <font>
+                                    <Font name="System Bold" size="23.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="6.0" layoutY="85.0" text="1- Advanced digital piano with ">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="6.0" layoutY="102.0" text="2GB library of realistic piano sounds">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="4.0" layoutY="124.0" text="2- Stereo grand piano sample with">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="4.0" layoutY="142.0" text="six velocity layers, recorded for">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="5.0" layoutY="159.0" text="the natural duration of each note abel">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="5.0" layoutY="227.0" text="and multiple dynamics">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="3.0" layoutY="190.0" text="3- 172 sounds include keyboard,">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="-1.0" layoutY="209.0" text=" brass, strings, percussion and more">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                        </children>
+                    </Pane>
+                    <Label layoutX="334.0" layoutY="109.0" text="Williams Allegro III Digital Piano ">
+                        <font>
+                            <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="335.0" layoutY="128.0" text="In-Home Pack With Stand , Bench">
+                        <font>
+                            <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="331.0" layoutY="146.0" text=" and Piano-Style Pedal">
+                        <font>
+                            <Font name="System Bold Italic" size="14.0" />
+                        </font>
+                    </Label>
+               <Button layoutX="385.0" layoutY="390.0" mnemonicParsing="false" onAction="#ADDTOCART" text="Add to cart" textFill="#8e0000">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+                  <effect>
+                     <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                        <bumpInput>
+                           <Shadow />
+                        </bumpInput>
+                        <light>
+                           <Light.Distant azimuth="173.13" elevation="121.95" />
+                        </light>
+                     </Lighting>
+                  </effect>
+               </Button>
+               <ImageView fitHeight="91.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+                </children>
+            </AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

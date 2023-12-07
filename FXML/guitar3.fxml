@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.guitar33Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="500.0" prefWidth="600.0">
+                <children>
+                    <ImageView fitHeight="342.0" fitWidth="296.0" layoutX="23.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@gg3.png" />
+                        </image>
+                    </ImageView>
+                    <Pane layoutX="327.0" layoutY="74.0" prefHeight="277.0" prefWidth="254.0">
+                        <children>
+                            <Label layoutX="7.0" layoutY="228.0" prefHeight="38.0" prefWidth="112.0" text="\$59.99">
+                                <font>
+                                    <Font name="System Bold" size="23.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="3.0" layoutY="82.0" text="Rogue Starter Acoustic Guitar Pink">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="7.0" layoutY="130.0" text="1- Smaller body style ideal for kids">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="8.0" layoutY="149.0" text="2- 7/8 scale">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="8.0" layoutY="168.0" text="3- Maple neck">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                        </children>
+                    </Pane>
+               <ImageView fitHeight="94.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <Button layoutX="364.0" layoutY="351.0" mnemonicParsing="false" onAction="#ADDTOCART" text="Add to cart" textFill="#8e0000">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+                  <effect>
+                     <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                        <bumpInput>
+                           <Shadow />
+                        </bumpInput>
+
+                     </Lighting>
+                  </effect>
+               </Button>
+                </children>
+            </AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

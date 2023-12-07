@@ -1,0 +1,95 @@
+------person-------
+insert into Person 
+VALUES('122','9877','masa','yaish','masa@gmail.com','femail',24,'ramallah',7588236945);
+insert into Person 
+VALUES('123','1247','ansam','nafaa','ansam@gmail.com','femail',30,'jeneen',5966347285);
+insert into Person 
+VALUES('124','124p','farah','to','farah@gmail.com','femail',15,'amman',2433587196);
+insert into Person 
+VALUES('125','124i','naji','wasi','naji@gmail.com','mail',45,'Nablus',0144789652);
+insert into Person 
+VALUES('126','124m','waseem','pasa','waseem@gmail.com','mail',22,'ramallah',4877596324);
+
+
+-------customer-------
+insert into Customer
+VALUES ('111','124p','wesam','pasa','wesam@gmail.com','mail',27,'nablus',1400235874);
+insert into Customer
+VALUES ('112','987u','rama','okal','rama@gmail.com','femail',19,'nablus',7899554411);
+insert into Customer
+VALUES ('113','1247','ansam','nafaa','ansam@gmail.com','femail',20,'jeneen',5966347285);
+
+
+
+--------adminstrator------------
+
+insert into Adminstrator
+VALUES('11','12345aya','Aya','daraghmah','ayadaraghmah@gmail.com','femail',20,'Nablus',0599123123);
+insert into Adminstrator
+VALUES('12','12345hala','Hala','Okal','Hala@gmail.com','Femail',20,'Nablus',0597141723);
+
+
+
+
+-------Ticket-----------
+insert into Ticket(OrchestraName,Price,OrchestraTime,OrchestraAddress,AdminstratorID)
+VALUES('mirga',124,'7/12/2021','italy',11);
+insert into Ticket(OrchestraName,Price,OrchestraTime,OrchestraAddress,AdminstratorID)
+VALUES('lorin maazel',230,'20/12/2021','Texas',11);
+insert into Ticket(OrchestraName,Price,OrchestraTime,OrchestraAddress,AdminstratorID)
+VALUES('A young conductor',340,'25/12/2021','340',11);
+
+
+
+
+-----------musical instrument----------
+-----chello------
+insert into musical_instruments
+VALUES('10','knilling chello','11','1000');
+insert into musical_instruments
+VALUES('11','cremona chello','11','900');
+----violin------
+insert into musical_instruments
+VALUES('20','bellafina violin','11','1200');
+insert into musical_instruments
+VALUES('21','lacremona violin','11','800');
+-----piano--------
+insert into musical_instruments
+VALUES('31','williams piano','11','1500');
+insert into musical_instruments
+VALUES('32','williams piano','11','1200');
+
+--------------
+
+
+ 
+
+-------guitar-----
+insert into musical_instruments
+VALUES('40','Rogue guitar','34','11','500');
+insert into musical_instruments
+VALUES('41','Martin guitar','54','11','400');
+------------------
+insert into musical_instruments
+VALUES('33',' Rhapsody piano','11','500');
+insert into musical_instruments
+VALUES('34','Casio piano','11','740');
+insert into musical_instruments
+VALUES('35','williams rhapsody','11','740');
+insert into musical_instruments
+VALUES('35','TARA Grand piano','11','2500');
+insert into musical_instruments
+VALUES('42','Rogue guitar','11','60');
+insert into musical_instruments
+VALUES('43','Rogue guitar','11','60');
+insert into musical_instruments
+VALUES('44','schecter guitar','11','550');
+insert into musical_instruments
+VALUES('45','D angelico guitar','11','1200');
+insert into musical_instruments
+VALUES('46','Martin guitar','11','350');
+insert into musical_instruments
+VALUES('22','Rozanna's Vilions','11','350');
+insert into musical_instruments
+VALUES('12','Yamaha chello','11','1850');
+

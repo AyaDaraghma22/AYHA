@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.AddingController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="500.0" prefWidth="600.0">
+                <children>
+                    <ImageView fitHeight="323.0" fitWidth="314.0" layoutX="14.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@gg1.png" />
+                        </image>
+                    </ImageView>
+                    <Pane layoutX="327.0" layoutY="89.0" prefHeight="277.0" prefWidth="254.0">
+                        <children>
+                            <Label layoutX="10.0" layoutY="13.0" text="Fender Player Stratocaster HSS">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="10.0" layoutY="30.0" text="Maple Fingerboard Limited-Edition">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="10.0" layoutY="47.0" text="Electric Guitar Sonic Blue">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="8.0" layoutY="96.0" text="1- Gloss-finish solid alder bod">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="8.0" layoutY="113.0" text="2- Bolt-on maple neck with maple">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="8.0" layoutY="130.0" text=" fingerboard">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="7.0" layoutY="155.0" text="3- Fender Player Series Stratocaster ">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="11.0" layoutY="169.0" text="pickups single-coil neck/middle,">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="9.0" layoutY="184.0" text=" bridge humbucker">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                     <TextField fx:id="ToolPrice" layoutX="15.0" layoutY="230.0" prefHeight="40.0" prefWidth="100.0" text="\$829.99">
+                        <font>
+                           <Font name="System Bold" size="19.0" />
+                        </font>
+                     </TextField>
+                        </children>
+                    </Pane>
+               <ImageView fitHeight="84.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <Button layoutX="379.0" layoutY="373.0" mnemonicParsing="false" onAction="#ADDTOCART" text="Add to cart" textFill="#8e0000">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+                  <effect>
+                     <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                        <bumpInput>
+                           <Shadow />
+                        </bumpInput>
+                     </Lighting>
+                  </effect>
+               </Button>
+               <Text layoutX="144.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                  <font>
+                     <Font name="System Bold" size="19.0" />
+                  </font>
+               </Text>
+               <Button layoutX="14.0" layoutY="446.0" mnemonicParsing="false" text="Back      " textFill="#050404">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="36.0" fitWidth="27.0" layoutX="72.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@back.png" />
+                  </image>
+               </ImageView>
+               <TextField fx:id="ToolID" layoutX="156.0" layoutY="407.0" prefHeight="24.0" prefWidth="51.0" text="ID= 40">
+                  <font>
+                     <Font name="System Bold" size="11.0" />
+                  </font>
+               </TextField>
+                </children>
+            </AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

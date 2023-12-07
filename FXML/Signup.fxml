@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.Signup1Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="500.0" prefWidth="650.0">
+                <children>
+                    <TextField fx:id="LName" layoutX="75.0" layoutY="169.0" promptText="Last Name" />
+                    <TextField fx:id="email" layoutX="371.0" layoutY="213.0" promptText="Email" />
+                    <TextField fx:id="FName" layoutX="74.0" layoutY="130.0" promptText="First Name" />
+                    <Label alignment="CENTER" layoutX="215.0" layoutY="19.0" prefHeight="10.0" prefWidth="200.0" text="Sign Up" textFill="#8e0000">
+                        <font>
+                            <Font name="Eras Bold ITC" size="44.0" />
+                        </font>
+                    </Label>
+                    <Button fx:id="DONE" layoutX="456.0" layoutY="436.0" mnemonicParsing="false" onAction="#DONE" text="DONE" textFill="#8e0000">
+                        <font>
+                            <Font name="Eras Bold ITC" size="18.0" />
+                        </font>
+                        <effect>
+                            <Lighting diffuseConstant="2.0" specularConstant="0.0" specularExponent="22.75" surfaceScale="10.0">
+                                <bumpInput>
+                                    <Shadow height="1.0" radius="0.0" width="0.0">
+                                        <color>
+                                            <Color red="0.7982456088066101" green="0.7908544540405273" blue="0.7908544540405273" />
+                                        </color>
+                                    </Shadow>
+                                </bumpInput>
+
+                            </Lighting>
+                        </effect>
+                    </Button>
+                    <ImageView fitHeight="33.0" fitWidth="32.0" layoutX="332.0" layoutY="209.0">
+                        <image>
+                            <Image url="@email.png" />
+                        </image>
+                    </ImageView>
+                    <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="333.0" layoutY="252.0">
+                        <image>
+                            <Image url="@password.png" />
+                        </image>
+                    </ImageView>
+                    <ImageView fitHeight="33.0" fitWidth="32.0" layoutX="34.0" layoutY="126.0">
+                        <image>
+                            <Image url="@username.png" />
+                        </image>
+                    </ImageView>
+               <ImageView fitHeight="80.0" fitWidth="93.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../FXML/AYHA.png" />
+                  </image>
+               </ImageView>
+               <TextField fx:id="BD" layoutX="74.0" layoutY="344.0" promptText="Age" />
+               <TextField fx:id="PHONENUM" layoutX="75.0" layoutY="292.0" promptText="Phone Number" />
+               <TextField fx:id="ADDRESS" layoutX="75.0" layoutY="250.0" promptText="Adress" />
+               <RadioButton fx:id="F" layoutX="68.0" layoutY="387.0" mnemonicParsing="false" text="Female" underline="true">
+                  <font>
+                     <Font name="System Bold Italic" size="13.0" />
+                  </font>
+               </RadioButton>
+               <RadioButton fx:id="M" layoutX="158.0" layoutY="386.0" mnemonicParsing="false" text="Male" underline="true">
+                  <font>
+                     <Font name="System Bold Italic" size="13.0" />
+                  </font>
+               </RadioButton>
+               <ImageView fitHeight="34.0" fitWidth="38.0" layoutX="33.0" layoutY="243.0">
+                  <image>
+                     <Image url="@../FXML/adress.jpg" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="35.0" layoutY="336.0">
+                  <image>
+                     <Image url="@../FXML/date%20of%20birth.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="32.0" layoutY="288.0">
+                  <image>
+                     <Image url="@phone_number.jpg" />
+                  </image>
+               </ImageView>
+               <TextField fx:id="PersonID" layoutX="75.0" layoutY="210.0" promptText="PersonID" />
+               <ImageView fitHeight="23.0" fitWidth="39.0" layoutX="31.0" layoutY="210.0">
+                  <image>
+                     <Image url="@ssn.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="108.0" fitWidth="127.0" layoutX="522.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@heart2.jpeg" />
+                  </image>
+               </ImageView>
+               <Button fx:id="BACKBUTTON" layoutX="15.0" layoutY="443.0" mnemonicParsing="false" onAction="#BACKBUTTON" text="Back       " textFill="#120101">
+                  <font>
+                     <Font name="Eras Bold ITC" size="18.0" />
+                  </font>
+                  <effect>
+                     <Lighting diffuseConstant="2.0" specularConstant="0.0" specularExponent="22.75" surfaceScale="10.0">
+                        <bumpInput>
+                           <Shadow height="1.0" radius="0.0" width="0.0">
+                              <color>
+                                 <Color red="0.7982456088066101" green="0.7908544540405273" blue="0.7908544540405273" />
+                              </color>
+                           </Shadow>
+                        </bumpInput>
+                     </Lighting>
+                  </effect>
+               </Button>
+               <ImageView fitHeight="26.0" fitWidth="43.0" layoutX="77.0" layoutY="448.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@back.png" />
+                  </image>
+               </ImageView>
+               <PasswordField fx:id="PASS" layoutX="371.0" layoutY="255.0" promptText="Password" />
+                </children>
+            </AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

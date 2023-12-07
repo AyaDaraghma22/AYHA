@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.CustomerProfileController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="645.0" prefWidth="850.0">
+            <children>
+               <ImageView fitHeight="678.0" fitWidth="233.0" layoutX="375.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@LONG.png" />
+                  </image>
+               </ImageView>
+               <Label fx:id="Mgender1" layoutX="18.0" layoutY="170.0" prefHeight="39.0" prefWidth="119.0" text="First name">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <Label layoutX="16.0" layoutY="238.0" text="Last Name">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <Label layoutX="17.0" layoutY="298.0" text="Gender">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <Label layoutX="17.0" layoutY="363.0" text="Password">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <Label layoutX="18.0" layoutY="116.0" text="Email" AnchorPane.topAnchor="116.0">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <Label layoutX="14.0" layoutY="420.0" text="Address">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <Label layoutX="16.0" layoutY="479.0" text="Phone number">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <Label layoutX="18.0" layoutY="542.0" text="Age">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <Button layoutX="328.0" layoutY="602.0" mnemonicParsing="false" text="Update" textFill="#8e0000" AnchorPane.leftAnchor="350.0">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Button>
+               <Button layoutX="42.0" layoutY="600.0" mnemonicParsing="false" text="Get your informations" textFill="#8e0000" AnchorPane.leftAnchor="42.0">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Button>
+               <Label layoutX="624.0" layoutY="395.0" text="My instrument bag" textFill="#0b0b0b">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="60.0" fitWidth="61.0" layoutX="804.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@instruments.jpeg" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="60.0" fitWidth="62.0" layoutX="762.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@orchestra.jpeg" />
+                  </image>
+               </ImageView>
+               <Label layoutX="189.0" layoutY="33.0" text="Customer profile" textFill="#030101" AnchorPane.topAnchor="33.0">
+                  <font>
+                     <Font name="System Bold Italic" size="25.0" />
+                  </font>
+               </Label>
+               <Label layoutX="665.0" layoutY="81.0" text="My Ticket" textFill="#0b0b0b">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Label>
+               <TextField fx:id="FName" layoutX="253.0" layoutY="169.0" prefHeight="34.0" prefWidth="218.0" AnchorPane.topAnchor="169.0" />
+               <TextField fx:id="FName1" layoutX="253.0" layoutY="110.0" prefHeight="34.0" prefWidth="218.0" />
+               <TextField fx:id="FName2" layoutX="253.0" layoutY="231.0" prefHeight="34.0" prefWidth="218.0" />
+               <TextField fx:id="FName3" layoutX="253.0" layoutY="293.0" prefHeight="34.0" prefWidth="218.0" />
+               <TextField fx:id="FName31" layoutX="254.0" layoutY="361.0" prefHeight="34.0" prefWidth="218.0" />
+               <TextField fx:id="FName311" layoutX="255.0" layoutY="418.0" prefHeight="34.0" prefWidth="218.0" />
+               <TextField fx:id="FName3111" layoutX="254.0" layoutY="480.0" prefHeight="34.0" prefWidth="218.0" />
+               <TextField fx:id="FName3112" layoutX="256.0" layoutY="539.0" prefHeight="34.0" prefWidth="218.0" />
+               <ImageView fitHeight="88.0" fitWidth="87.0" layoutX="-1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="71.0" fitWidth="74.0" layoutX="105.0" layoutY="14.0" AnchorPane.topAnchor="14.0">
+                  <image>
+                     <Image url="@USER.png" />
+                  </image>
+               </ImageView>
+               <Button layoutX="12.0" layoutY="650.0" mnemonicParsing="false" onAction="#BACK" text="Back      " textFill="#050404">
+                  <font>
+                     <Font name="System Bold Italic" size="18.0" />
+                  </font>
+               </Button>
+               <ImageView fitHeight="36.0" fitWidth="27.0" layoutX="72.0" layoutY="655.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@back.png" />
+                  </image>
+               </ImageView>
+               <TableView layoutX="598.0" layoutY="126.0" prefHeight="198.0" prefWidth="256.0">
+                 <columns>
+                   <TableColumn prefWidth="109.5999755859375" text="Orchestra Name" />
+                   <TableColumn prefWidth="56.7999267578125" text="Price" />
+                     <TableColumn prefWidth="89.60009765625" text="Quantity" />
+                 </columns>
+               </TableView>
+               <TableView layoutX="598.0" layoutY="449.0" prefHeight="198.0" prefWidth="256.0">
+                  <columns>
+                     <TableColumn prefWidth="109.5999755859375" text="Instrument Name" />
+                     <TableColumn prefWidth="56.7999267578125" text="Price" />
+                     <TableColumn prefWidth="89.60009765625" text="Quantity" />
+                  </columns>
+               </TableView>
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

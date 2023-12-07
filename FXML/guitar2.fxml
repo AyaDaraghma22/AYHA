@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JAVAFX.guitar22Controller">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="500.0" prefWidth="600.0">
+                <children>
+                    <ImageView fitHeight="323.0" fitWidth="314.0" layoutX="14.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@gg2.png" />
+                        </image>
+                    </ImageView>
+                    <Pane layoutX="327.0" layoutY="66.0" prefHeight="286.0" prefWidth="270.0">
+                        <children>
+                            <Label layoutX="6.0" layoutY="239.0" prefHeight="38.0" prefWidth="112.0" text="349.99$">
+                                <font>
+                                    <Font name="System Bold" size="23.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="6.0" layoutY="76.0" text="Martin Special Little Martin XSeriesabel">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="6.0" layoutY="96.0" text="Macassar Top Acoustic Guitar Ebony">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="10.0" layoutY="154.0" text="1- HPL Macassar pattern top and body">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="10.0" layoutY="171.0" text="2- Authentic Acoustic Lifespan 2.0 ">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="10.0" layoutY="189.0" text="strings">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                            <Label layoutX="11.0" layoutY="211.0" text="3- X bracing">
+                                <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                </font>
+                            </Label>
+                        </children>
+                    </Pane>
+               <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@AYHA.png" />
+                  </image>
+               </ImageView>
+               <Button layoutX="385.0" layoutY="352.0" mnemonicParsing="false" onAction="#ADDTOCART" text="Add to cart" textFill="#8e0000">
+                  <font>
+                     <Font name="System Bold Italic" size="20.0" />
+                  </font>
+                  <effect>
+                     <Lighting diffuseConstant="1.17" specularConstant="0.0" specularExponent="22.44" surfaceScale="10.0">
+                        <bumpInput>
+                           <Shadow />
+                        </bumpInput>
+                     </Lighting>
+                  </effect>
+               </Button>
+                </children>
+            </AnchorPane>
+        </Scene>
+    </scene>
+</Stage>
